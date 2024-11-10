@@ -1,0 +1,7 @@
+pip install pandas numpy matplotlib geopandas
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("berkeleyearth/climate-change-earth-surface-temperature-data")
+
+print("Path to dataset files:", path)
